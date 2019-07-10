@@ -79,5 +79,5 @@ theme: strata
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: heroku
-  repo:
+  repo: https://git.heroku.com/paulyeagerweblog.git
   message:
