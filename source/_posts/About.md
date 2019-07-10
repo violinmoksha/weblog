@@ -3,7 +3,6 @@ title: About
 date: 2019-07-10 10:54:53
 cover_index: images/avatar-index.jpg
 cover_detail: images/avatar-detail.jpg
-tags:
 ---
 
 Welcome to [Paul Yeager's Web Development Portfolio](https://paulyeager.net)! This is my web portfolio site. The portfolio's NodeJS hexo-cli -generated server code I have also open sourced @ [GitHub](https://github.com/violinmoksha/weblog). You too can have yet another website in under an hour or so (plus however long it takes you to type your markdown content). ;-p

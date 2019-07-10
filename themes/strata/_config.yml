@@ -11,7 +11,7 @@ default_cover_index: "http://placehold.it/450x320"
 default_cover_detail: "http://placehold.it/1300x500"
 
 # Show Dates for posts and pages
-show_dates: true
+show_dates: false
 
 # Style of home page 'blog' or 'thumbs'
 style: thumbs
