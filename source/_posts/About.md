@@ -5,7 +5,7 @@ cover_index: images/avatar-index.jpg
 cover_detail: images/avatar-detail.jpg
 ---
 
-Welcome to [Paul Yeager's Web Development Portfolio](https://paulyeager.net)! This is my web portfolio site. The portfolio's NodeJS hexo-cli -generated server code I have also open sourced @ [GitHub](https://github.com/violinmoksha/weblog). You too can have yet another website in under an hour or so (plus however long it takes you to type your markdown content). ;-p
+Welcome to [Paul Yeager's Web Development Portfolio](http://paulyeager.net)! This is my web portfolio site. The portfolio's NodeJS hexo-cli -generated server code I have also open sourced @ [GitHub](https://github.com/violinmoksha/weblog). You too can have yet another website in under an hour or so (plus however long it takes you to type your markdown content). ;-p
 
 On this site I document some of the mainstays of the current web which were built and/or were maintained by me, Paul Yeager. I may also mention--with ethical redaction--how various unnamed infrastructures were changed or improved through my professional interactions with said unnamed infra--amidst descriptions of my work--of course without any specific reference to any company or person aside from myself. This is so as to of course ethically protect our markets' continued growth-utilizing functions or methods I contributed to in current production(s). This way, I'm able to exercise best practices in ethical client confidentiality and corporate propriety, while also being able to give you the reader more insights into understanding what I do and what makes me tick.
 
