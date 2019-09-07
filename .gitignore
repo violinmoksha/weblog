@@ -4,3 +4,6 @@ db.json
 *.log
 node_modules/
 .deploy*/
+old_posts
+.htaccess
+.htpasswd
