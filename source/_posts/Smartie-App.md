@@ -1,6 +1,8 @@
 ---
 title: Smartie Hybrid-Mobile App
 date: 2019-07-10 16:20:11
+cover_index: images/smartie.png
+cover_detail: images/smartie.png
 ---
 
 [<img src="/images/smartie.png">](https://ln.sync.com/dl/5d7487960/r3rwihv4-gzu3zdz3-bq94v36c-37ya42m3)
