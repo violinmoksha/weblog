@@ -119,7 +119,7 @@
 
 <!-- Content -->
 <p><img src="/images/saneforums.png" alt="SANE Forums, Australia"></p>
-<p>My first major exposure to Full Stack work (i.e. MEAN stack) was begun as POC/prototyping R&amp;D bank in my Bank of America days (2010-2014), when we noticed NodeJS gaining traction and stability, thus my first full stack work was there in ~2013-2014. However, I later went to work for HotelQuickly in Bangkok and then SolutionFuse in the US, while still-residing in Thailand. Unfortunately, the hybrid-mobile app I built HotelQuickly hasn’t stuck around in production today, but the hybrid-mobile app SANE Forums–a mental health organization in Australia which SolutionFuse took on early in my time there–is still in production and maintained as the same app afaik, today. For this, at SolutionFuse I took an already mobile-responsive website built using the Lithium framework, and built for it an Apache Cordova “shell” to live in devices’ IPA/APK, so as to house the same sessions authentication from the SANE website within our manually-built shell app. (See <a href="/images/saneforums.png">the screenshot</a> for desktop website and same web code loading inside the mobile app. The shell is basically just native-encapsulated JS DOM injection via a set of well-configured Cordova plugins, so as to transform the mobile-responsive site directly into a mobile app. One might think of this app as “plain vanilla” hybrid-mobile, therefore, since its only “web” framework is Cordova).</p>
+<p>My first major exposure to Full Stack work in MEAN (Mongo, Express, Angular, Node) was begun as POC/prototyping R&amp;D in my Bank of America days (2010-2014), when our team noticed NodeJS gaining traction and stability, thus my first full stack work was there in ~2013-2014. However, I later went to work for HotelQuickly in Bangkok while living in Thailand, and then the SolutionFuse consulting-form in the US, while still-residing in Thailand. The hybrid-mobile app I built HotelQuickly hasn’t stuck around in production as the company went under, but the hybrid-mobile app for SANE Forums I authored soon-after, is still in production today and can be downloaded from stores for iOS/Android. For this application based out of Australia, I took an already mobile-responsive website my consulting-firm SolutionFuse had built using the Lithium web framework, and built for it a vanilla- Apache Cordova “Javascript shell” to live in devices as IPA (iOS)/APK (Android). This way, the existing website could be easily housed within a mobile-app since the Responsive UX already had the CSS media calls needed for mobile-render. The shell gracefully maintains the state of the existing sessions-authentication from the existing Lithium-website furthermore, using existing cookies and hashes. The JS shell is basically just native-encapsulated DOM injection with a number of inter-communicating timed-polls. The Cordova build consumes a small footprint of well-configured native-plugins, so as to transform the mobile-responsive site directly into a mobile app for a variety of screen sizes and cross-platform. This was one of my earliest pushes to production in the hybrid-mobile space as it utilizes “plain vanilla” web code, and doesn’t really need to make use of any JS frameworks or libraries within its Cordova built, such as Angular (or even jQuery for that matter). Nothing fancy under the hood, but looked like a Ferrari to the client as the end-result was a fully-functioning cross-platform mobile app!</p>
 
 
 <!-- Tags -->
@@ -169,13 +169,13 @@
       <li>
         <h3 class="icon fa-home"><span class="label">Address</span></h3>
         Paul Yeager<br />
-        773 Center Blvd.<br />
-        Fairfax, CA 94930-0216<br />
+        3377 Deer Valley Road #237<br />
+        Antioch, CA 94531<br />
         United States
       </li>
       <li>
         <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-        <a href="#">humbl3@protonmail.com</a>
+        <a href="mailto:humbl3@protonmail.com">humbl3@protonmail.com</a>
       </li>
     </ul>
   </div>
