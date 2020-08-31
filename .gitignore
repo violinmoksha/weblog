@@ -5,6 +5,7 @@ db.json
 node_modules/
 .deploy*/
 old_posts
+public
 .htaccess
 .htpasswd
 public/

@@ -7,4 +7,4 @@ cover_detail: images/arubanetworks.png
 
 ![ArubaNetworks.com](/images/arubanetworks.png)
 
-ArubaNetworks.com (as is public info), is a WordPress with a server infra. Due to the unnamed infra+WordPress configurability constraints, at SolutionFuse I fully-wired their site to Akamai CDN, using a well-refined Ruleset config in Akamai, following lengthy RRTE with dev team. Configuring this eliminated many of the company’s IT team’s layers of what were proven to be ultimately unnecessary hours-long manual operations.
+ArubaNetworks.com is a WordPress with an enterprise HAProxy infrastructure. While contracting for SolutionFuse I fully-wired their site to Akamai CDN, using a well-refined Ruleset config, following lengthy RRTE with the Aruba IT team. Configuring and deploying the new Ruleset saved the company millions of dollars as many layers of the IT team's hours-long manual deployment ops were no longer necessary per production-release.
