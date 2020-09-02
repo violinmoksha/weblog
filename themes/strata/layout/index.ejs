@@ -21,8 +21,8 @@
     <%- partial('_partial/archive', {pagination: config.archive}) %>
   <% } else { %>
 
-    <!-- Two -->
-    <section id="two">
+    <!-- Three -->
+    <section id="three">
       <h2>Notable Work</h2>
       <div class="row">
         <% page.posts.forEach(function(item, index){ %>
@@ -35,3 +35,7 @@
     <%- partial('_partial/pagination') %>
 
   </section>
+
+  <!-- Two -->
+  <br>
+  <%- partial('_partial/payment') %>

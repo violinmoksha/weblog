@@ -6,6 +6,11 @@
 
 (function($) {
 
+	$("#amount").bind("blur", function(e) {
+		console.log($(e.target).val());
+		$('.stripe-button').attr('data-amount', $(e.target).val());
+	});
+
 	var settings = {
 
 		// Parallax background effect?
@@ -109,12 +114,12 @@
 
 				}
 
-		// Main Sections: Two.
+		// Main Sections: Four.
 
 			// Lightbox gallery.
 				$window.on('load', function() {
 
-					$('#two').poptrox({
+					$('#four').poptrox({
 						overlayColor: '#2c2c2c',
 						overlayOpacity: 0.85,
 						popupCloserText: '',
