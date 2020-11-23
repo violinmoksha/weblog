@@ -21,6 +21,9 @@ about_page: 2019/07/10/About/
 
 # favicon
 favicon: images/favicon.ico
+faviconAppleTouch: images/apple-touch-icon.png
+favicon32x32: images/favicon-32x32.png
+favicon16x16: images/favicon-16x16.png
 
 # Comments. Choose one by filling up the information
 comments:
