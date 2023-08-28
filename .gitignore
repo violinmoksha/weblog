@@ -3,9 +3,3 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-.deploy*/
-old_posts
-public
-.htaccess
-.htpasswd
-public/
