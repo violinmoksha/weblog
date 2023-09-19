@@ -1,11 +1,9 @@
 ---
 title: Smartie Hybrid-Mobile App
 date: 2019-07-10 16:20:11
-cover_index: images/smartie.png
-cover_detail: images/smartie.png
+cover_index: /images/smartie.png
+cover_detail: /images/smartie.png
 ---
-
-[<img src="/images/smartie.png">](https://ln.sync.com/dl/5d7487960/r3rwihv4-gzu3zdz3-bq94v36c-37ya42m3)
 
 Smartie was more or less an R&D stealth-startup for a hybrid-mobile full application stack I and my juniors designed, authored, and maintained while I was at SolutionFuse. It is not yet deployed to production but it is sitting in my github awaiting VC attention at some future-date. It utilizes MEAN (Mongo/Express/Angular/Node) with a ParseJS layer in the back (from community-maintained -then-adopted open source originating out of Facebook's retirement of the formerly-named cloud-hosted Mongo abstraction-layer). ParseJS had a nice dashboard for skinning as a customer-service interface furthermore, thus not only did it serve as a reasonable API response-serving -replacement for ExpressJS but also made for a good two-fer as-such. Smartie has Angular-based Ionic Framework in the front, mostly chosen over React for its SCSS kitchen sink. Ionic also came with great pre-wrapped test-bed using karma-jasmine and protractor.
 

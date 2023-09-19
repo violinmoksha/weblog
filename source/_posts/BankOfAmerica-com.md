@@ -1,11 +1,9 @@
 ---
 title: BankOfAmerica.com
 date: 2019-07-10 15:49:32
-cover_index: images/bankofamerica.png
-cover_detail: images/bankofamerica.png
+cover_index: /images/bankofamerica.png
+cover_detail: /images/bankofamerica.png
 ---
-
-![BankOfAmerica.com](/images/bankofamerica.png)
 
 I authored and integrated the "Account Transaction Module" UI in 2010-2012, still running in production today in Bank of America Checking/Savings (Deposits) and perhaps also still on corporate credit card pages. The integration is comprised of several Perforce-maintained components I also later supported. The regexes doing the frontend search validation in JS I wrote then are still executing in the transactions search panel that millions of eComm consumers continue to use today. The entire jQuery DataTables integration visually-beneath that--with its Sort and Filter controls running in the thead of the table--are also still attached to the same JS algorithms I utilized at the time, such that complex table sorts do not require browser-reloads from the server.
 
