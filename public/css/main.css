@@ -994,7 +994,6 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
-    /* change */
     text-decoration: none; }
 
 #one a {
