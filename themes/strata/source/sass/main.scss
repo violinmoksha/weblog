@@ -77,8 +77,12 @@
 		}
 	}
 
-	#one a {
+	#main a {
 		color: _palette(accent1, fg-light);
+
+		&:hover {
+			color: _palette(accent1, fg-light) !important;
+		}
 	}
 
 	strong, b {

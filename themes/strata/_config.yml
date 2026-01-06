@@ -5,10 +5,10 @@ gravatar_email_img: /images/avatar-index.png
 default_post_title: Untitled
 
 # Default post cover index page (Recommended)
-default_cover_index: "http://placehold.it/450x320"
+default_cover_index: "https://placehold.co/450x320"
 
 # Default post cover index page (Optional)
-default_cover_detail: "http://placehold.it/1300x500"
+default_cover_detail: "https://placehold.co/1300x500"
 
 # Show Dates for posts and pages
 show_dates: false
@@ -36,4 +36,4 @@ google_analytics: UA-143794485-1
 
 # Social Accounts
 github_url: https://github.com/violinmoksha
-email_url: mailto:humbl3@protonmail.com
+email_url: mailto:violinkhuba@gmail.com

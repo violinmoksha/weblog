@@ -73,7 +73,7 @@
 </script>
 
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 8.1.1"></head>
 
 
 <body id="top">
@@ -83,7 +83,7 @@
   <div class="inner">
     <a href="/" class="image avatar"><img src="/images/avatar-index.png" alt="Paul E. Yeager in a suit and Thai yellow neck tie" /></a>
     <h1><strong>Paul E. Yeager, Engineer</strong></h1>
-    <p>Based on NodeJS Hexo, this portfolio displays a fully responsive site custom-coded by <a href="http://paulyeager.net">PaulYeager.net</a>. Its NodeJS Hexo CLI-generated static assets are being served to you via a <a target="_blank" href="https://m.do.co/c/58005b7462a5" rel="nofollow noopener">FREE Static Site deployment on DigitalOcean App Platform</a>, while the DNS is managed by the <a target="_blank" href="https://dnsimple.com/r/bb546d0caf81d9" rel="nofollow noopener">friendly folk at DNSimple</a>.</p>
+    <p>Based on NodeJS Hexo, this portfolio displays a fully responsive site developed by <a href="http://paulyeager.net">PaulYeager.net</a>. Its NodeJS Hexo CLI-generated static assets are being served to you via a <a target="_blank" href="https://cloud.google.com/run" rel="nofollow noopener">Google Cloud Run</a> deployment, while the DNS is registered with the <a target="_blank" href="https://dnsimple.com/r/bb546d0caf81d9" rel="nofollow noopener">friendly folk at DNSimple</a>.</p>
   </div>
 </header>
 
@@ -123,8 +123,9 @@
 
 
 <!-- Content -->
-<p>I authored and integrated the “Account Transaction Module” UI in 2010-2012, still running in production today in Bank of America Checking&#x2F;Savings (Deposits) and perhaps also still on corporate credit card pages. The integration is comprised of several Perforce-maintained components I also later supported. The regexes doing the frontend search validation in JS I wrote then are still executing in the transactions search panel that millions of eComm consumers continue to use today. The entire jQuery DataTables integration visually-beneath that–with its Sort and Filter controls running in the thead of the table–are (usually) also still attached to the same JS algorithms I utilized at the time, such that complex table sorts do not require browser-reloads from the server.</p>
-<p>If you see acronym-named JS bundles running in the outer View Source of the page, PIPAD is the application acronym used for the Deposits-related application which later came to own my UI code. These components were standalone at first and well-documented as artifacts in the UI team’s Perforce repository. Then, they were rewritten to accommodate tighter-knit J2EE application-ownership following a corporate re-org. The fly-out “deals” integration was another project still-evident in the production interface today, whereby if you have a BofA checking account you might see certain transactions that want to give you a “deal”, f.e. buy a part at AutoZone –&gt; get a deal at AutoZone on your next trip to AutoZone. This was coded to be triple-A (“AAA”) ADA-compliant, using i.e. ARIA tagging, keyboard-navigation indeces, and other means of complying with the highest level of web accessibility guidelines. There’s also a check-scanner at the teller’s place of business which you may have noticed as a customer through the glass teller window; we built a web integration for that such that customers can see their check images inside the expandable transaction-panels inside the transactions table.</p>
+<p>I authored and integrated the “Account Transaction Module” UI in 2010-2012, still running in production today, in Bank of America’s Checking&#x2F;Savings (“Deposits”) pages, and likely also still on Corporate Credit. The integration is comprised of several artifactually-maintained module-components I also later supported, the bulk of which is the transactions module mentioned. The regexes doing the frontend search validation in JS I wrote then, are usually still running today in the transactions search panel of the Online Banking production browser-experience that millions of customers continue to rely on today, 24x7. The jQuery DataTables integration tying it all together–with its Sort and Filter controls running in the thead of the table–are (like I said, usually, when rookie Java devs don’t mess up the regular production app redeployments, occasionally mistakenly thinking these sorts should be server-side, when the algos were authored to run more-virtuosically, instantly, from clicks in the browser UI) are still there, such that complex transactions Sorts do not require browser-reloads from the server-side J2E app.</p>
+<p>If you see “PIPAD” acronym-named JS bundles running in the View Source of the page, that’s the Java j2e application runtime probably still deployed for the Deposits-related UIs, which came to own my UI code after a corporate re-org, which left several Java applications-teams owning the prior UI Teams’ code, scattered across several Java applications. These UI components were standalone at first, and centrally-managed by the UI Team I worked for in 2010-2012, thus were well-documented and centrally-maintained as artifacts in the UI team’s source repositories. Then, they were rewritten to accommodate tighter-knit J2EE application-ownership following the corporate re-org, which ultimately’d allowed me to go on a sabbatical, after which I was rehired by the app that owned my code. </p>
+<p>The fly-out “deals” integration was another project still-evident in the production interface today, whereby if you have&#x2F;had a BofA checking account, you might see certain transactions that want to give you a “deal”, f.e. buy a part at AutoZone –&gt; get a deal at AutoZone on your next trip to AutoZone. This was coded to be triple-A (“AAA”) ADA-compliant, using i.e. ARIA tagging, keyboard-navigation indeces, and other means of complying with the highest standards of web accessibility guidelines. There’s also a check-scanner at the teller’s place of business which you may have noticed as a customer through the glass teller window; we built a web integration for that such that customers can see their check images inside the expandable transaction-panels inside the transactions table, thus providing a more-continuous customer-experience starting at the teller window, and gracefully completing in the banking customer’s browser UI Online Banking user-experience. We were the best at web, and IMO we still are. 🇺🇸</p>
 
 
 <!-- Tags -->
@@ -167,7 +168,7 @@
       </li>
       <li>
         <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-        <a href="mailto:humbl3@protonmail.com">violinkhuba@gmail.com</a>
+        <a href="mailto:violinkhuba@gmail.com">violinkhuba@gmail.com</a>
       </li>
     </ul>
   </div>
@@ -190,13 +191,13 @@
             
             
             
-                <li><a href="mailto:humbl3@protonmail.com" class="icon fa-envelope-o" target="_blank" aria-label="Email Me"><span class="label">Email</span></a></li>
+                <li><a href="mailto:violinkhuba@gmail.com" class="icon fa-envelope-o" target="_blank" aria-label="Email Me"><span class="label">Email</span></a></li>
             
             
         </ul>
 
         <ul class="copyright">
-            <li>&copy; 2019 TheYeagerAffect<sup>TM</sup>. All rights reserved</li>
+            <li>&copy; 2025 Paul Yeager<sup>TM</sup>. All rights reserved</li>
             <li>Design: <a href="http://html5up.net" target="_blank" rel="nofollow">HTML5 UP</a></li>
             <li>Hexo: <a href="http://livingos.com/" target="_blank" rel="nofollow">Tim Hyde</a></li>
         </ul>
